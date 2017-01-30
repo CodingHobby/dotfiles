@@ -1,0 +1,38 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+    "key": "ctrl+\\",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "editor.action.indentLines"
+  },
+  {
+    "key": "ctrl+alt+B",
+    "command": "HookyQR.beautifyFile"
+  },
+  {
+    "key": "ctrl+alt+S",
+    "command": "editor.action.commentLine"
+  },
+  {
+    "key": "ctrl+alt+-",
+    "command": "editor.action.indentLines"
+  },
+  {
+    "key": "ctrl+alt+,",
+    "command": "editor.action.outdentLines"
+  },
+  {
+    "key": "ctrl+N",
+    "command": "workbench.action.files.newFile"
+  },
+  {
+    "key": "ctrl+shift+N",
+    "command": "workbench.action.files.newFolder"
+  },
+  {
+    "key": "ctrl+shift+O",
+    "command": "workbench.action.files.openFolder"
+  }
+]
