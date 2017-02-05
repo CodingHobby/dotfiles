@@ -1,0 +1,8 @@
+#!/bin/bash
+
+fallback=true
+noconfirm=true
+editor=vim
+editpkgbuild=false
+editinstall=false
+clean=true
