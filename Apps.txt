@@ -13,3 +13,4 @@ skype-electron
 synapse
 wps-office
 nsnake
+transmission-gtk
