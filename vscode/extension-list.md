@@ -8,5 +8,7 @@
 - Guides
 - npm
 - Path Autocomplete
+- Polymer Snippets
+- Polymer Syntax
 - Sass
 - seti-icons
