@@ -3,6 +3,6 @@
 fallback=true
 noconfirm=true
 editor=vim
-editpkgbuild=false
-editinstall=false
+editpkgbuild=true
+editinstall=true
 clean=true
