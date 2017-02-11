@@ -12,3 +12,6 @@
 - Polymer Syntax
 - Sass
 - seti-icons
+- Material
+- Material Theme
+- VSCode Great Icons

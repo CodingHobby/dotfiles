@@ -27,3 +27,6 @@ vlc
 imagewriter
 gnome-disk-utility
 gwake
+redshift
+synapse
+tmux
