@@ -1,0 +1,14 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 2,
+    "editor.wordWrap": true,
+    "editor.cursorBlinking": "expand",
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
+    "git.confirmSync": false,
+    "css.lint.duplicateProperties": "warning",
+    "scss.lint.duplicateProperties": "warning",
+    "extensions.autoUpdate": true,
+    "terminal.integrated.rightClickCopyPaste": true,
+    "terminal.integrated.cursorBlinking": true
+  }
