@@ -30,3 +30,12 @@ guake
 redshift
 synapse
 tmux
+ghc
+cabal-install
+haskell-haddock-api
+haskell-haddock-library
+happy
+alex
+godot
+krita
+filezilla

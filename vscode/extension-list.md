@@ -6,3 +6,5 @@
 - npm
 - Material
 - VSCode Great Icons
+- Python
+- Sass
