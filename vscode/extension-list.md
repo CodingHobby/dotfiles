@@ -3,8 +3,9 @@
 - Arduino
 - Bracket Pair Colorizer
 - Document This
-- npm
+- Haskell Syntax Highlight
 - Material
-- VSCode Great Icons
+- Material Icon Theme
+- npm
 - Python
 - Sass
