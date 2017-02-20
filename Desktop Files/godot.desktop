@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Development;
+Type=Application
+Name=Godot Engine
+GenericName=Game Engine
+Comment=OSS Game Engine for 2d and 3d games
+Exec=godot
+Icon=wine
