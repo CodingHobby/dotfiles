@@ -1,0 +1,40 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "9ee5318e-412c-42f6-8142-1fab3c7a22ae"
+    js:
+      indent_size: 2
+      indent_with_tabs: true
+  core:
+    disabledPackages: [
+      "color-picker"
+      "emmet"
+      "linter"
+      "linter-eslint"
+      "floobits"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    softTabs: false
+    softWrap: true
+  "exception-reporting":
+    userId: "8dbecf15-433c-4532-8fb9-830b50e6a9a2"
+  "file-icons": {}
+  "one-dark-ui": {}
+  "seti-syntax": {}
+  "seti-ui":
+    font: "Default Atom Font"
+  "terminal-plus":
+    core:
+      autoRunCommand: "/bin/zsh"
+    style:
+      animationSpeed: 0
+      defaultPanelHeight: "200px"
+  welcome:
+    showOnStartup: false
