@@ -1,0 +1,14 @@
+{
+  "HTML": {
+    "prefix": "html",
+    "body": [
+      "doctype",
+      "html(lang=en)",
+      "\thead",
+      "\t\tmeta(charset='utf-8')",
+      "\tbody",
+      "\t\t$0"
+    ],
+    "description": "Creates an empty Jade initial Template"
+  }
+}

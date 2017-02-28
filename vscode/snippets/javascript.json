@@ -1,0 +1,83 @@
+{
+	"Function": {
+		"prefix": "fn",
+		"body": [
+			"function ${1:func} (${2:params}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "A function"
+	},
+	"Anonymus Function": {
+		"prefix": "afn",
+		"body": [
+			"function(${1:params}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Write spaghetti code and callbacks"
+	},
+	"For loop": {
+		"prefix": "fori",
+		"body": [
+			"for(var ${1:i} = 0; ${1:i} < ${2:arr}.length; ${1:i}++ {",
+			"\t$0",
+			"}"
+		],
+		"description": "For loop"
+	},
+	"OnLoad": {
+		"prefix": "load",
+		"body": [
+			"window.addEventListener('load', function() {",
+			"\t$0",
+			"}"
+		],
+		"description": "Creates a callback for when the window loads"
+	},
+	"Add Event Listener": {
+		"prefix": "adde",
+		"body": [
+			"document.getElementById('${1:el}').addEventListener('${2:event}', function(e) {",
+			"\te.preventDefault()",
+			"\n\t$0",
+			"}"
+		],
+		"description": "Adds an event listener to a DOM Element"
+	},
+	"Create React Element": {
+		"prefix": "rel",
+		"body": [
+			"class ${1:Element} extends Component {",
+			"\trender() {",
+			"\t\treturn (",
+			"\t\t\t<div>$0</div>",
+			"\t\t)",
+			"\t}",
+			"}",
+			"export default ${1:Element}"
+		],
+		"description": "Creates a React Element"
+	},
+	"Express Includes": {
+		"prefix": "expri",
+		"body": [
+			"var express = require('express'),",
+			"\tapp = express(),",
+			"\tport = process.env.PORT || ${1:3000}",
+			"\tserver = app.listen(port, function(){",
+			"\t\tconsole.log('App running on port ' + port",
+			"\t})"
+		],
+		"description": "Chain of react imports"
+	},
+	"Express Route": {
+		"prefix": "exprr",
+		"body": [
+			"app.${1:get}('/{$2:route}', function(req, res) {",
+			"\t$0",
+			"})"
+		],
+		"description": "Classic React Route"
+	}
+}

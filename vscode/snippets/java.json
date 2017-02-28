@@ -1,0 +1,12 @@
+{
+	"Main": {
+		"prefix": "main",
+		"body": [
+			"class Main {",
+			"\tpublic static void main(String[] args) {",
+			"\t\t$0",
+			"\t}",
+			"}"
+		]
+	}
+}

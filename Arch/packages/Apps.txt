@@ -1,14 +1,12 @@
 gnome-2048
 arduino
 equalx
-fritzing
 cowsay
 xcowsay
 dropbox
 htop
 kmines
 visual-studio-code
-plank
 skype-electron
 wps-office
 nsnake
