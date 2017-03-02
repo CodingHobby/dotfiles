@@ -3,6 +3,12 @@ pacman -S figlet --noconfirm
 pacman -S banner --noconfirm
 pacman -S git --noconfirm
 
+# Globally setting git username
+clear
+figet "Setting git creadentials..."
+git config --global user.name="codinghobby@gmail.com"
+git config --global user.email="codinghobby@gmail.com"
+
 # Installing vim
 clear
 figlet "Installing vim..."
