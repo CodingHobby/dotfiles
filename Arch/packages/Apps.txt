@@ -6,6 +6,8 @@ xcowsay
 dropbox
 htop
 kmines
+nodejs
+npm
 visual-studio-code
 skype-electron
 wps-office

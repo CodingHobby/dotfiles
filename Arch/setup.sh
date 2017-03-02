@@ -1,6 +1,7 @@
 # Installing Dependencies
 pacman -S figlet --noconfirm
 pacman -S banner --noconfirm
+pacman -S git --noconfirm
 
 # Installing vim
 clear

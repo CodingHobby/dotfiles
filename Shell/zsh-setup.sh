@@ -1,6 +1,5 @@
 # Installing oh-my-zsh
 figlet "Installing OH-MY-ZSH..."
-pacman -S zsh --noconfirm
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Customizing oh-my-zsh
