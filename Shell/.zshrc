@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+
 # Path to your oh-my-zsh installation.
   export ZSH=/home/corrado/.oh-my-zsh
 
@@ -83,3 +84,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+ #Setting the GEM_PATH and GEM_HOME variables may not be necessary, check 'gem env' output to verify whether both variables already exist 
+ GEM_HOME=$(ls -t -U | ruby -e 'puts Gem.user_dir')
+ GEM_PATH=$GEM_HOME
+ export PATH=$PATH:$GEM_HOME/bin
+ export GEM_HOME=$(ruby -e 'print Gem.user_dir')
+

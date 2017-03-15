@@ -32,8 +32,17 @@ clear
 figlet "Installing VSCode"
 yaourt -S visual-studio-code --noconfirm
 clear
+figlet "Installing Kingston Office..."
+yaourt -S wps-office --noconfirm
+clear
 figlet "Installing Everything Else"
 yaourt -S /home/corrado/Dotfiles/Arch/packages/Apps.txt --noconfirm
 clear
 figlet "Updating System"
 pacman -Syu --noconfirm
+clear
+figlet "Installing Yarn"
+npm install -g yarn 
+clear
+figlet "Installing npm Packages"
+yarn global add http-server create-react-app babel-cli angular-cli

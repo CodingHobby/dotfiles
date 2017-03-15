@@ -4,6 +4,7 @@
 - Bracket Pair Colorizer
 - Debugger for Chrome
 - Document This
+- ESLint
 - Git History
 - Haskell Syntax Highlight
 - Material
@@ -11,3 +12,4 @@
 - npm
 - Python
 - Sass
+- To Do Tasks
