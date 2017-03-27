@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Games;
+Type=Application
+Name=Prisma Puzzle Timer
+GenericName=Puzzle Timer
+Comment=Java Based Rubik's Cube Timer
+Exec=java -jar /home/corrado/Downloads/PrismaPuzzleTimer0.6.jar
+Icon=wine

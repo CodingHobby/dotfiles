@@ -1,7 +1,7 @@
 # Installing Dependencies
-pacman -S figlet --noconfirm
-pacman -S banner --noconfirm
-pacman -S git --noconfirm
+yaourt -S figlet --noconfirm
+yaourt -S banner --noconfirm
+yaourt -S git --noconfirm
 
 # Globally setting git username
 clear
@@ -12,7 +12,7 @@ git config --global user.email="codinghobby@gmail.com"
 # Installing vim
 clear
 figlet "Installing vim..."
-pacman -S vim --noconfirm
+yaourt -S vim --noconfirm
 
 # Vimrc customization
 clear
@@ -39,7 +39,10 @@ figlet "Installing Everything Else"
 yaourt -S /home/corrado/Dotfiles/Arch/packages/Apps.txt --noconfirm
 clear
 figlet "Updating System"
-pacman -Syu --noconfirm
+yaourt -Syu --noconfirm
+clear
+figlet "Sudoing"
+su
 clear
 figlet "Installing Yarn"
 npm install -g yarn 
