@@ -24,5 +24,12 @@
       "</div>"
     ],
     "description": "Creates a bootstrap Jumbotron"
+  },
+  "JQuery CDN": {
+    "prefix": "jqcdn",
+    "body": [
+      "<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>"
+    ],
+    "description": "Inserts the JQuery CDN in a script"
   }
 }

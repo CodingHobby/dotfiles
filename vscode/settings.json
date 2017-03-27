@@ -1,9 +1,8 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.tabSize": 2,
-    "editor.wordWrap": true,
+    "editor.wordWrap": "on",
     "editor.cursorBlinking": "expand",
-    "editor.renderWhitespace": "boundary",
     "editor.renderIndentGuides": true,
     "git.confirmSync": false,
     "css.lint.duplicateProperties": "warning",
@@ -11,5 +10,7 @@
     "extensions.autoUpdate": true,
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.cursorBlinking": true,
-    "editor.insertSpaces": false
-  }
+		"editor.insertSpaces": false,
+		"workbench.colorTheme": "Material",
+		"workbench.iconTheme": "material-icon-theme"
+	}

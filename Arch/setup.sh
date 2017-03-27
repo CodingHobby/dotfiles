@@ -49,3 +49,5 @@ npm install -g yarn
 clear
 figlet "Installing npm Packages"
 yarn global add http-server create-react-app babel-cli angular-cli
+figlet "Adding wallpaper"
+cp ./wallpaper.jpg /usr/share/backgrounds
