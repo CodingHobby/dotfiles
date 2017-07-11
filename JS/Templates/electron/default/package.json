@@ -2,19 +2,17 @@
 	"name": "Demo",
 	"version": "0.0.0",
 	"description": "An electron demo",
-	"main": "server.js",
+	"main": "app.js",
 	"scripts": {
-		"dev": "nodemon server.js",
-		"start": "node server.js"
+		"start": "electron .",
+		"build": "electron-packager ."
 	},
 	"author": "Corrado Canepari",
 	"license": "MIT",
 	"dependencies": {
-		"express": "^4.15.3",
-		"body-parser": "^1.17.2",
-		"express-handlebars": "^3.0.0"
+		"electron":"^1.6.11"
 	},
 	"devDependencies": {
-		"nodemon": "^1.11.0"
+		"electron-packager": "^8.7.2"
 	}
 }

@@ -1,11 +1,10 @@
 # Installing Dependencies
 yaourt -S figlet --noconfirm
-yaourt -S banner --noconfirm
 yaourt -S git --noconfirm
 
 # Globally setting git username
 clear
-figet "Setting git creadentials..."
+figlet "Setting git creadentials..."
 git config --global user.name="codinghobby@gmail.com"
 git config --global user.email="codinghobby@gmail.com"
 
@@ -42,12 +41,10 @@ figlet "Updating System"
 yaourt -Syu --noconfirm
 clear
 figlet "Sudoing"
-su
 clear
 figlet "Installing Yarn"
 npm install -g yarn 
 clear
-figlet "Installing npm Packages"
-yarn global add http-server create-react-app babel-cli angular-cli
 figlet "Adding wallpaper"
 cp ./wallpaper.jpg /usr/share/backgrounds
+sudo ../JS/installModules.sh

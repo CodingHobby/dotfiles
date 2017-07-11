@@ -1,15 +1,15 @@
 {
-	"name": "[NAME]",
-	"version": "[VERSION]",
-	"description": "[DESCRIPTION]",
+	"name": "Demo",
+	"version": "0.0.0",
+	"description": "An electron demo",
 	"main": "index.js",
 	"scripts": {
 		"dev": "nodemon index.js",
 		"start": "node index.js",
 		"test": "jest"
 	},
-	"author": "[AUTHOR]",
-	"license": "[LICENSE]",
+	"author": "Corrado Canepari",
+	"license": "MIT",
 	"devDependencies": {
 		"nodemon": "^1.11.0",
 		"jest": "^20.0.4"
