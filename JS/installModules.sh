@@ -1,5 +1,5 @@
 figlet "Installing npm Packages"
-npm i -g http-server babel-cli scaffoldme create-react-app
+npm i -g http-server babel-cli scaffoldme create-react-app yarn
 
 figlet "Adding scaffoldme templates"
 # Add scaffoldme templates

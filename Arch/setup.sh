@@ -2,21 +2,10 @@
 yaourt -S figlet --noconfirm
 yaourt -S git --noconfirm
 
-# Globally setting git username
-clear
-figlet "Setting git creadentials..."
-git config --global user.name="codinghobby@gmail.com"
-git config --global user.email="codinghobby@gmail.com"
-
 # Installing vim
 clear
 figlet "Installing vim..."
 yaourt -S vim --noconfirm
-
-# Vimrc customization
-clear
-figlet "Customizing vim..."
-cp /home/corrado/Dotfiles/Shell/.vimrc /home/corrado
 
 # Yaourtrc
 clear
@@ -40,11 +29,11 @@ clear
 figlet "Updating System"
 yaourt -Syu --noconfirm
 clear
-figlet "Sudoing"
-clear
-figlet "Installing Yarn"
-npm install -g yarn 
-clear
 figlet "Adding wallpaper"
 cp ./wallpaper.jpg /usr/share/backgrounds
-sudo ../JS/installModules.sh
+figlet "Customizing packages..."
+../Shell/config.sh
+figlet "Installing NPM modules"
+../JS/installModules.sh
+figlet "Setting up ZSH"
+../Shell/zsh-setup.sh
