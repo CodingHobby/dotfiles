@@ -20,7 +20,7 @@
 	"For loop": {
 		"prefix": "fori",
 		"body": [
-			"for(var ${1:i} = 0; ${1:i} < ${2:arr}.length; ${1:i}++ {",
+			"for(var ${1:i} = 0; ${1:i} < ${2:arr}.length; ${1:i}++) {",
 			"\t$0",
 			"}"
 		],
@@ -31,7 +31,7 @@
 		"body": [
 			"window.addEventListener('load', function() {",
 			"\t$0",
-			"}"
+			"})"
 		],
 		"description": "Creates a callback for when the window loads"
 	},
@@ -41,7 +41,7 @@
 			"document.getElementById('${1:el}').addEventListener('${2:event}', function(e) {",
 			"\te.preventDefault()",
 			"\n\t$0",
-			"}"
+			"})"
 		],
 		"description": "Adds an event listener to a DOM Element"
 	},

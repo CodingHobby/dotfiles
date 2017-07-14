@@ -11,6 +11,10 @@
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.cursorBlinking": true,
 		"editor.insertSpaces": false,
-		"workbench.colorTheme": "Material",
-		"workbench.iconTheme": "material-icon-theme"
-	}
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "window.zoomLevel": 1,
+    "editor.fontWeight": "bold",
+    "editor.minimap.enabled": false
+  }

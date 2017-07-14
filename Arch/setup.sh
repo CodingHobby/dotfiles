@@ -31,9 +31,12 @@ yaourt -Syu --noconfirm
 clear
 figlet "Adding wallpaper"
 cp ./wallpaper.jpg /usr/share/backgrounds
+cp ./wallpaper.jpg /home/corrado/Pictures
 figlet "Customizing packages..."
 ../Shell/config.sh
-figlet "Installing NPM modules"
-../JS/installModules.sh
+figlet "Installing NPM modules..."
+sudo ../JS/installModules.sh
+figlet "Setting up Git..."
+../gitSetup.sh
 figlet "Setting up ZSH"
 ../Shell/zsh-setup.sh
