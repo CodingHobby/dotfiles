@@ -6,8 +6,6 @@ htop
 nodejs
 npm
 wine
-pcmanfm
-gpick
 gwenview
 hexchat
 emacs
@@ -26,4 +24,3 @@ happy
 alex
 krita
 filezilla
-i3
