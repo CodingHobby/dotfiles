@@ -5,6 +5,7 @@
 - Debugger for Chrome
 - Document This
 - ESLint
+- Express
 - Git History
 - Haskell Syntax Highlight
 - Material
@@ -13,4 +14,4 @@
 - Python
 - Sass
 - To Do Tasks
-- TODO parser
+- TODO Highlight
